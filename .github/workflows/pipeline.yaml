@@ -172,7 +172,7 @@ jobs:
           --owner ${{ github.repository_owner }} \
           --repository ${{ github.event.repository.name }} \
           --assets GuidCmd.linux.tar.gz,GuidCmd.windows.zip \
-          --inputFilePath "${{ github.workspace }}/.github/workflows/GitReleaseManager.yaml"
+          --inputFilePath "${{ github.workspace }}/.github/GitReleaseManager.yaml"
 
       - name: Publish Release
         run: |
